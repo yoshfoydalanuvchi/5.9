@@ -1,0 +1,72 @@
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", sans-serif;
+}
+#registration-panel {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#registration-panel h1 {
+  color: blue;
+}
+
+#registration-panel form {
+  display: flex;
+  flex-direction: column;
+}
+
+#registration-panel input {
+  padding: 10px;
+  border: 1px solid;
+  border-color: #4100f5;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  outline-color: #007bff;
+}
+
+#registration-panel button {
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 17px;
+  background-image: linear-gradient(to right, #4100f5, #007bff);
+  font-family: inherit;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#registration-panel button:hover {
+  background-image: linear-gradient(to right, #007bff, #4100f5);
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#data {
+  margin-top: 80px;
+  margin-inline: 15px;
+
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#data div {
+  margin: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 5px;
+  font-family: sans-serif;
+}

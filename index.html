@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="registration-panel">
+      <h1>Ro'yxatdan o'tish</h1>
+      <p>bo'sh maydonlarni to'ldiring</p>
+      <form id="registrationForm" onsubmit="return validated()">
+        <input type="text" placeholder="Ism" id="name" />
+
+        <input type="email" placeholder="E-mail" id="email" />
+
+        <input type="text" placeholder="Telefon Raqam" id="phone" />
+
+        <input type="password" placeholder="Parol" id="password" />
+
+        <input
+          type="password"
+          placeholder="Parolni takrorlang"
+          id="repeat-password"
+        />
+
+        <button type="submit" id="submit">Ro'yxatdan o'tish</button>
+      </form>
+    </div>
+    <div id="data"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
